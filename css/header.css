@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--border-cabecera-mobile);
+    font-size: 1.2rem;
+}
+.header__menu{
+    display: flex;
+    gap: 30px;
+}
+.header__logo{
+    width: 220px;
+}
+.header__menu__item{
+    background: transparent;
+    border-radius: .3rem;
+    border: 1px solid rgb(88, 158, 238);
+    padding: .2rem .5rem;
+}
+.header__menu__item:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
